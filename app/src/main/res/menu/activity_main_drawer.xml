@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="single" >
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/xin"
+            android:title="我的关注" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/xing"
+            android:title="我的收藏" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/jing"
+            android:title="搜索好友" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ling"
+            android:title="消息通知" />
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_wen"
+                android:icon="@drawable/wenjian"
+                android:title="本地文件" />
+            <item
+                android:id="@+id/nav_she"
+                android:icon="@drawable/shezhi"
+                android:title="设置" />
+        </menu>
+    </item>
+    <item android:title="Night">
+        <menu>
+            <item
+                android:id="@+id/night"
+                android:icon="@drawable/yue"
+                android:title="夜间模式" />
+        </menu>
+    </item>
+
+</menu>

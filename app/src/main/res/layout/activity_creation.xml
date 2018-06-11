@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CreationActivity"
+    android:background="@drawable/bg_blue">
+
+    <TextView
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="创作"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:background="#1296db"/>
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/umeng_socialize_back_icon"/>
+    <TextView
+        android:id="@+id/text_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="28dp"
+        android:text="取消"
+        android:textColor="#fff"
+        android:layout_marginTop="26dp"
+        android:gravity="center_vertical"
+        android:textSize="16dp"/>
+    <LinearLayout
+        android:layout_below="@+id/text_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/video_img"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/umeng_socialize_share_video"/>
+        <ImageView
+            android:id="@+id/intension_img"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/neihan"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

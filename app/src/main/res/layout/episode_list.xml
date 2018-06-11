@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/second_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/t1"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/second_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="敷衍"
+        android:textSize="16dp"
+        android:textColor="#f00"
+        android:layout_toRightOf="@+id/second_img"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        />
+    <TextView
+        android:id="@+id/second_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017-12-23 14:45"
+        android:textSize="12dp"
+        android:layout_toRightOf="@+id/second_img"
+        android:layout_below="@+id/second_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <ImageView
+        android:id="@+id/second_jia"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/jia"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:focusable="false
+"
+        android:layout_marginRight="20dp"/>
+    <ImageView
+        android:id="@+id/fx_img"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="22dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/fx"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/pl_img"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/pl"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/dz_img"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="22dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/dz"
+        android:visibility="gone" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/second_img"
+        android:id="@+id/second_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="哈哈"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"
+        android:ellipsize="end"
+        />
+
+</RelativeLayout>
